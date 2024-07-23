@@ -1,0 +1,12 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Explicitly set LF endings for specific files
+*.sh eol=lf
+*.js eol=lf
+*.jsx eol=lf
+*.json eol=lf
+
+# Explicitly set CRLF endings for specific files
+*.bat eol=crlf
+*.cmd eol=crlf
